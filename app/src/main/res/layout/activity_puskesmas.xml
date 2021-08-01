@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    tools:context=".PuskesmasActivity">
+
+    <ImageView
+        android:id="@+id/imgBackround"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/puskesmas_slipi2"/>
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_drawable">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtPuskesmas"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/puskesmas_slipi"
+                    android:textAllCaps="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#157EAE"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingPrefix" />
+
+
+                <TextView
+                    android:id="@+id/txt_infopuskesmas"
+                    android:layout_below="@id/txtPuskesmas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/alamat_puskesmas"
+                    android:textColor="#157EAE"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_infopuskesmas1"
+                    android:layout_below="@id/txt_infopuskesmas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/text_1"
+                    android:textColor="#157EAE"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_infopuskesmas2"
+                    android:layout_below="@id/txt_infopuskesmas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/phone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

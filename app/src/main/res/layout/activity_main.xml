@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgBackround"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:scaleType="fitXY"
+        android:src="#157EAE"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="150dp"
+            android:layout_height="200dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_drawable">
+
+        <TextView
+            fontPath="fonts/Poppins-SemiBold.otf"
+            tools:ignore="MissingPrefix"
+            android:text="@string/txt_title"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#157EAE"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/cv_daftar"
+                android:layout_width="0dp"
+                app:cardElevation="5dp"
+                android:layout_height="120dp"
+                android:layout_weight="0.45"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/vaccine"
+                        android:layout_width="85dp"
+                        android:layout_height="80dp"
+                        android:layout_above="@+id/txt_daftar"
+                        android:layout_marginBottom="5dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        tools:ignore="MissingPrefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="@string/txt_vaksin"
+                        android:textColor="#157EAE"
+                        android:textSize="15sp"
+                        android:id="@+id/txt_daftar"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/cv_list"
+                android:layout_width="0dp"
+                app:cardElevation="5dp"
+                android:layout_height="120dp"
+                android:layout_weight="0.45"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/list"
+                        android:layout_width="85dp"
+                        android:layout_height="80dp"
+                        android:layout_above="@+id/txt_list"
+                        android:layout_marginBottom="5dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        tools:ignore="MissingPrefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="@string/list_pendaftar"
+                        android:textColor="#157EAE"
+                        android:textSize="15sp"
+                        android:id="@+id/txt_list"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/cv_info"
+                android:layout_width="0dp"
+                app:cardElevation="5dp"
+                android:layout_height="120dp"
+                android:layout_weight="0.45"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/information"
+                        android:layout_width="85dp"
+                        android:layout_height="80dp"
+                        android:layout_above="@+id/txt_info"
+                        android:layout_marginBottom="5dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        tools:ignore="MissingPrefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="@string/info_vaksin"
+                        android:textColor="#157EAE"
+                        android:textSize="15sp"
+                        android:id="@+id/txt_info"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/cv_puskesmas"
+                android:layout_width="0dp"
+                app:cardElevation="5dp"
+                android:layout_height="120dp"
+                android:layout_weight="0.45"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/puskesmas"
+                        android:layout_width="85dp"
+                        android:layout_height="80dp"
+                        android:layout_above="@+id/txt_puskesmas"
+                        android:layout_marginBottom="5dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        tools:ignore="MissingPrefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="@string/txt_puskesmas"
+                        android:textColor="#157EAE"
+                        android:textSize="15sp"
+                        android:id="@+id/txt_puskesmas"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    tools:context=".DaftarActivityVaksin">
+
+    <ImageView
+        android:id="@+id/imgBackround"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:scaleType="fitXY"
+        android:src="#157EAE" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_drawable">
+
+        <TextView
+            android:id="@+id/txt_ajakan"
+            fontPath="fonts/Poppins-SemiBold.otf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/txt_ajakan"
+            android:textColor="#157EAE"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingPrefix" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="8dp"
+                app:boxBackgroundColor="@android:color/darker_gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/namaPeserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nama Lengkap"
+                    android:textColorHint="@android:color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="8dp"
+                app:boxBackgroundColor="@android:color/darker_gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/alamatPeserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Alamat"
+                    android:textColorHint="@android:color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginRight="8dp"
+                app:boxBackgroundColor="@android:color/darker_gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/hpPeserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nomor Handphone"
+                    android:textColorHint="@android:color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginRight="8dp"
+                app:boxBackgroundColor="@android:color/darker_gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/umurPeserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Umur"
+                    android:textColorHint="@android:color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

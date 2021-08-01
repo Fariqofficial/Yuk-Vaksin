@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Yuk Vaksin</string>
+    <string name="txt_title">Yuk Vaksin</string>
+    <string name="txt_vaksin">Daftar Vaksin</string>
+    <string name="list_pendaftar">List Pendaftar</string>
+    <string name="info_vaksin">Info Vaksin</string>
+    <string name="txt_puskesmas">Puskesmas</string>
+    <string name="text_info_vaksin1">CoronaVac merupakan vaksin yang mengandung virus SARS-CoV-2 yang sudah tidak aktif. Penyuntikan vaksin Sinovac akan memicu sistem kekebalan tubuh untuk mengenali virus yang sudah tidak aktif ini dan memproduksi antibodi untuk melawannya sehingga tidak terjadi infeksi COVID-19.</string>
+    <string name="text_info_vaksin2">Di dalam produk vaksin ini juga terkandung aluminium hidroksida sebagai bahan tambahan yang berfungsi untuk meningkatkan respons sistem kekebalan tubuh terhadap vaksin. Vaksin Sinovac dikembangkan oleh Sinovac Biotech Ltd. Vaksin ini sudah melewati uji klinis fase ketiga yang dilakukan di Brazil, Turki, dan Indonesia. Uji klinis fase ketiga di Indonesia menunjukkan nilai efikasi vaksin, yaitu efek perlindungan terhadap COVID-19, sebesar 65,3%.</string>
+    <string name="syarat_vaksin">Syarat Vaksin</string>
+    <string name="syarat1">1. Tidak memiliki penyakit kronis, seperti penyakit jantung, autoimun, ginjal kronis, rematik autoimun, penyakit saluran pencernaan kronis, hipertiroid atau hipotiroid, serta penyakit kanker.</string>
+    <string name="syarat2">2. Tidak sedang mengalami infeksi akut yang disertai dengan demam, batuk, pilek, diare, dan lain-lain.</string>
+    <string name="syarat3">3. Tidak sedang hamil.</string>
+    <string name="syarat4">4. Tidak memiliki anggota keluarga yang menjadi pasien COVID-19 atau sedang dalam perawatan COVID-19.</string>
+    <string name="syarat5">5. Jika saat skrining kesehatan, kamu mengalami demam atau suhu tubuh diatas 37,5 derajat Celsius, maka vaksinasi akan ditunda.</string>
+    <string name="syarat6">6. Pengidap diabetes tipe 2 terkontrol dan HbA1C di bawah 58 mmol/mol atau 7,5 persen.</string>
+    <string name="syarat7">7. Jika kamu memiliki penyakit paru, seperti asma, PPOK, atau TBC, maka vaksinasi akan ditunda hingga kondisi kamu dapat dinyatakan baik.</string>
+    <string name="syarat8">8. Untuk pengidap TBC yang masih dalam perawatan, vaksinasi dapat diberikan setelah dua minggu menerima obat antituberkulosis.</string>
+    <string name="syarat9">9. Apabila saat skrining kesehatan kamu memiliki tekanan darah di atas atau sama dengan 180/110, artinya vaksinasi tidak dapat diberikan.</string>
+    <string name="syarat10">10. Penyintas COVID-19 bisa mendapatkan vaksinasi minimal tiga bulan setelah sembuh.</string>
+    <string name="puskesmas_slipi">Puskesmas Slipi II</string>
+    <string name="telp_puskesmas">(021) 5323118.</string>
+    <string name="alamat_puskesmas">Puskesmas Slipi II melayani program vaksinasi Covid-19, terletak di Jl. Aipda KS. Tubun IV No.27, RT.2/RW.7, Slipi, Kec. Palmerah, Kota Jakarta Barat, 11410.</string>
+    <string name="umur_peserta">Umur Peserta</string>
+    <string name="nama_peserta">Nama Peserta</string>
+    <string name="txt_ajakan">Ayo Daftarkan Dirimu Sekarang !</string>
+    <string name="tahun">Tahun</string>
+    <string name="text_1">Puskesmas Slipi II buka setiap hari Senin - Jumat mulai pukul 06:00 - 16:00. Layanan vaksinasi Covid-19 dimulai pukul 06:00 - 12:00</string>
+    <string name="phone">Phone : (021) 5306265</string>
+</resources>

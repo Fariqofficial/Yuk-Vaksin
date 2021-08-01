@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    tools:context=".InfoVaksinActivity">
+
+    <ImageView
+        android:id="@+id/imgBackround"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sinovac" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_drawable">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtInfoVaksin"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/info_vaksin"
+                    android:textAllCaps="true"
+                    android:textColor="#157EAE"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/txtVaksin1"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtInfoVaksin"
+                    android:layout_margin="8dp"
+                    android:layout_marginTop="20dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/text_info_vaksin1"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/txtVaksin2"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtVaksin1"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/text_info_vaksin2"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksin"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtVaksin2"
+                    android:layout_margin="8dp"
+                    android:text="@string/syarat_vaksin"
+                    android:textAllCaps="true"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint1"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksin"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat1"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint2"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint1"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat2"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint3"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint2"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat3"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint4"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint3"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat4"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint5"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint4"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat5"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint6"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint5"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat6"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint7"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint6"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat7"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint8"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint7"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat8"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint9"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint8"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat9"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/syaratVaksinPoint10"
+                    fontPath="fonts/Poppins-SemiBold.otf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/syaratVaksinPoint9"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/syarat10"
+                    android:textColor="#157EAE"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
